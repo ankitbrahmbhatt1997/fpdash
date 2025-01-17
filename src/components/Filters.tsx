@@ -3,7 +3,7 @@ import { Calendar } from "../components/ui/calendar";
 import { Popover, PopoverContent, PopoverTrigger } from "../components/ui/popover";
 import { Button } from "../components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../components/ui/select";
-import { format, startOfDay } from "date-fns";
+import { format } from "date-fns";
 import { FiltersType } from '../types/filters';
 import { DateRange } from "react-day-picker";
 

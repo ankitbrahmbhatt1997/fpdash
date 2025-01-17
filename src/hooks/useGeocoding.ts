@@ -58,7 +58,6 @@ export function useGeocoding(lat: number, lng: number): GeocodeResult {
             state, 
             suburb, 
             neighbourhood,
-            road,
             county
           } = data.address;
 

@@ -12,7 +12,6 @@ import { Button } from '../components/ui/button';
 import { getVehicles } from '../lib/api';
 import { format, startOfDay, endOfDay } from 'date-fns';
 import { Skeleton } from "../components/ui/skeleton";
-import { useGeocoding } from '../hooks/useGeocoding';
 import { FiltersType } from '../types/filters';
 import { LocationData } from '../components/LocationData';
 import { Filters } from '../components/Filters';
