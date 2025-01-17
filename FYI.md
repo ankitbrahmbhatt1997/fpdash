@@ -26,3 +26,10 @@
 1. All changes need explicit approval
 2. Issues should be clearly identified before implementing solutions
 3. Current focus: Fixing list rendering persistence issue 
+
+## Deployment Notes
+1. Required Babel Dependencies:
+   - @babel/plugin-proposal-private-property-in-object: Required for proper build process
+2. Common Deployment Issues:
+   - Babel plugin missing errors can be resolved by installing required dependencies
+   - Make sure all babel plugins are in dependencies, not devDependencies for Heroku 
